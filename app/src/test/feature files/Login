@@ -12,3 +12,7 @@ Feature: Login Home page
              |naveen|Unaveen|
              |naveen|naveen|
              |naveen|password|
+             |naveen|pass1word|
+             |naveen|pass2word|
+
+
