@@ -1,15 +1,17 @@
+
 Feature: Login Home page
 
-  Scenario Outline: Gmail <Role> Login
-    Given  user is on home page
-    When  user enters the username in "<username>" field
-    Then user enters the password in "<password>" field
-    Then user click on sign
+  Scenario Outline:  Login feature with multiple  username and passwords
+    Given User is on home page
+    When  user click on login button
+    And User enters "<username>" in username field
+    And  user enters "<password>" in password field
+    Then login message displayed successfully
 
-  FileTag:
-  Login.xlsx
-
-
-
-  Scenario: Email Login in page
-    Then user should be able to navigate to the GmailLogin screen
+    Examples:
+      |username|password|
+      |naveen|Unaveen|
+      |naveen|naveen|
+      |naveen|password|
+      |naveen|pass1word|
+      |naveen|pass2word|
