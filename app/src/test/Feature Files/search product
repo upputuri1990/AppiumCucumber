@@ -1,4 +1,0 @@
-Feature: Search product
-  When user is on login page
-  And user search for product
-  Then Required product displayed successfully
