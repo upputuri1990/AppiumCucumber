@@ -3,4 +3,5 @@
       Given user is on login page
       And user enterd apple laptop
       Then display apple laptop successfully
-      
+      Then product added into cart successfully
+
