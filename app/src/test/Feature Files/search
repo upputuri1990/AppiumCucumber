@@ -1,0 +1,6 @@
+  Feature: search for product
+    Scenario: search for laptop
+      Given user is on login page
+      And user enterd apple laptop
+      Then display apple laptop successfully
+      
