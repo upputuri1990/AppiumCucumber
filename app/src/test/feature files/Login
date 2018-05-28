@@ -1,0 +1,15 @@
+Feature: Login Home page
+
+  Scenario Outline: Gmail <Role> Login
+    Given  user is on home page
+    When  user enters the username in "<username>" field
+    Then user enters the password in "<password>" field
+    Then user click on sign
+
+  FileTag:
+  Login.xlsx
+
+
+
+  Scenario: Email Login in page
+    Then user should be able to navigate to the GmailLogin screen
