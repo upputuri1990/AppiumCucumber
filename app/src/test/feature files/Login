@@ -1,3 +1,4 @@
+
 Feature: Login Home page
 
   Scenario Outline:  Login feature with multiple  username and passwords
@@ -8,11 +9,11 @@ Feature: Login Home page
     Then login message displayed successfully
 
     Examples:
-             |username|password|
-             |naveen|Unaveen|
-             |naveen|naveen|
-             |naveen|password|
-             |naveen|pass1word|
-             |naveen|pass2word|
+      |username|password|
+      |naveen|Unaveen|
+      |naveen|naveen|
+      |naveen|password|
+      |naveen|pass1word|
+      |naveen|pass2word|
 
 
