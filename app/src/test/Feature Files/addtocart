@@ -1,0 +1,5 @@
+Feature: Add to cart feature
+  Given user is on login page
+  When user searched for Required product
+  Then user click on particular product
+  When Product is added into cart successfully

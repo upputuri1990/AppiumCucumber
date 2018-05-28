@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+Feature: Login Home page
+=======
 
 Feature: Login Home page
 
@@ -15,3 +19,22 @@ Feature: Login Home page
       |naveen|password|
       |naveen|pass1word|
       |naveen|pass2word|
+>>>>>>> origin/R28NAVEEN
+
+  Scenario Outline:  Login feature with multiple  username and passwords
+    Given User is on home page
+    When  user click on login button
+    And User enters "<username>" in username field
+    And  user enters "<password>" in password field
+    Then login message displayed successfully
+
+<<<<<<< HEAD
+    Examples:
+      |username|password|
+      |naveen|Unaveen|
+      |naveen|naveen|
+      |naveen|password|
+      |naveen|pass1word|
+      |naveen|pass2word|
+=======
+>>>>>>> origin/R28NAVEEN
