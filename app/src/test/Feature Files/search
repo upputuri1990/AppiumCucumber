@@ -5,4 +5,5 @@
       Then display apple laptop successfully
       Then product added into cart successfully
       Then payment done successfully
+      Then Payment done message has been displayed.
 
