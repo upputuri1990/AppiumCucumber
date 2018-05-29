@@ -1,0 +1,8 @@
+Feature: calculator test
+  Scenario: addtion of two numbers
+    Given click on "1" button
+    And  click on "+" symbol
+    Given click on "2" button
+    When click on "=" button
+    Then Result displayed
+
