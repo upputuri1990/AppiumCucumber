@@ -5,6 +5,8 @@ Feature: calculator test
     Given click on "2" button
      And  click on "*" symbol
     Given click on "3" button
+    And  click on "*" symbol
+    Given click on "4" button
     
     When click on "=" button
     Then Result displayed
