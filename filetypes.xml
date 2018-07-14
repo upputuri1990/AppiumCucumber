@@ -1,0 +1,15 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="TestRunner" type="CLASS" />
+      <mapping pattern="sample" type="Cucumber" />
+      <mapping pattern="Login" type="Cucumber" />
+      <mapping pattern="search product" type="Cucumber" />
+      <mapping pattern="addition" type="Cucumber" />
+      <mapping pattern="addtocart" type="Cucumber" />
+      <mapping pattern="subtraction" type="Cucumber" />
+      <mapping pattern="multiplication" type="Cucumber" />
+      <mapping pattern="search" type="Cucumber" />
+    </extensionMap>
+  </component>
+</application>
